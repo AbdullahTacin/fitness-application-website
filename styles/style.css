@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+
+
+
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.miama {
+  font-family: 'Miama', sans-serif;
+}
+
+
+body{
+
+  background-color: black;
+  color: white;
+  padding: 0 10%;
+
+}
+
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header section styles */
+
+/* navbar styles */
+
+
+nav{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+nav .logo{
+
+  color: #E6533C;
+  font-size: 2.25rem;
+  font-weight: 800;
+  font-style: italic;
+}
+
+nav .nav-links ul{
+
+  list-style: none;
+  display: flex;
+  gap: 47px;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+
+}
+
+nav .nav-links .a-link a {
+
+  text-decoration: none;
+  color: white;
+  font-size: 1.125rem;
+  
+}
+
+nav .nav-links .a-link{
+
+  padding: 8px 20px;
+  border-radius: 46px;
+}
+
+.bg-og{
+
+  background-color: #E6533C;
+}
+
+
+nav .nav-links{
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  padding: 4px;
+}
+
+
+
+
+
+/* banner styles */
+
+.banner{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: calc(100vh - 77px);
+}
