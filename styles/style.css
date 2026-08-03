@@ -104,6 +104,11 @@ nav .logo {
   font-style: italic;
 }
 
+.manu {
+
+  display: none;
+}
+
 nav .nav-links ul {
 
   list-style: none;
@@ -218,8 +223,8 @@ nav .nav-links {
   padding: 12px 24px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   position: absolute;
-  bottom: 530px;
-  right: -20px;
+  bottom: 60%;
+  right: -5%;
   backdrop-filter: blur(20px);
 }
 
@@ -263,8 +268,8 @@ nav .nav-links {
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   position: absolute;
-  bottom: 110px;
-  left: -70px;
+  bottom: 10%;
+  left: -12%;
   backdrop-filter: blur(20px);
 }
 
@@ -279,4 +284,133 @@ nav .nav-links {
   font-weight: 400;
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.65);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+
+  header,
+  main,
+  footer {
+
+    padding: 0 5%;
+
+  }
+
+
+  .banner {
+
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  nav .nav-links ul {
+
+    display: none;
+  }
+
+  .manu {
+
+    display: block;
+  }
+
+
+  .banner .main-photo{
+
+    width: 80%;
+  }
+
+  .five{  
+
+    bottom: 45%;
+
+    right: -12%;
+  }
+
+  .banner .banner-container .banner-title {
+
+    font-size: 2.25rem;
+  }
+
+  #shape {
+
+    font-size: 4.875rem;
+  }
+
+  .banner .banner-container .banner-discription{
+
+    max-width: 280px;
+
+  }
+
+  #club{
+
+    display: none;
+  }
+
+  .d-btn{
+
+    padding: 16px 20px;
+
+  }
+
+  
+
+
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+
+
+  
+  header,
+  main,
+  footer {
+
+    padding: 0 5%;
+
+  }
+
+  nav .nav-links ul{
+
+    gap: 0px;
+
+  }
+
+  .banner {
+
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
 }
