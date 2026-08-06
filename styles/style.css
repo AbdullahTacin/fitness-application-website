@@ -55,6 +55,22 @@ footer {
 }
 
 
+.section-title{
+
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.section-subtitle{
+
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+
+
+
 
 
 
@@ -287,7 +303,50 @@ nav .nav-links {
 }
 
 
+/* main section stylesss */
 
+/* habits section style */
+
+.habits-title{
+
+  text-align: center;
+  margin-top: 100px;
+}
+
+.habits-subtitle{
+
+  text-align: center;
+  margin-top: 14px;
+}
+
+
+.habits .habit-cards .card-title {
+
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.habits .habit-cards .card-subtitle{
+
+  text-align: center;
+}
+
+.habits .habit-cards{
+
+  display: grid;
+  grid-template-columns: repeat(4, 231px);
+  gap: 40px;
+  /* justify-items: center; */
+  justify-content: center;
+  margin-top: 58px;
+}
+
+.habit-cards .card img{
+
+  border-radius: 100px;
+  border: 4px solid rgba(255, 255, 255, 0.1);
+}
 
 
 
