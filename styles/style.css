@@ -55,13 +55,13 @@ footer {
 }
 
 
-.section-title{
+.section-title {
 
   font-size: 3rem;
   font-weight: 900;
 }
 
-.section-subtitle{
+.section-subtitle {
 
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.875rem;
@@ -307,16 +307,19 @@ nav .nav-links {
 
 /* habits section style */
 
-.habits-title{
+.habits-title {
 
   text-align: center;
   margin-top: 100px;
 }
 
-.habits-subtitle{
+.habits-subtitle {
 
+  max-width: 650px;
   text-align: center;
+  margin: 0 auto;
   margin-top: 14px;
+
 }
 
 
@@ -327,25 +330,34 @@ nav .nav-links {
   text-align: center;
 }
 
-.habits .habit-cards .card-subtitle{
+.habits .habit-cards .card-subtitle {
 
   text-align: center;
+  margin-top: 6px;
 }
 
-.habits .habit-cards{
+.habits .habit-cards {
 
   display: grid;
   grid-template-columns: repeat(4, 231px);
   gap: 40px;
-  /* justify-items: center; */
+  justify-items: center;
   justify-content: center;
   margin-top: 58px;
 }
 
-.habit-cards .card img{
+.habit-cards .card .img-div {
+
+  width: 180px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.habit-cards .card img {
 
   border-radius: 100px;
   border: 4px solid rgba(255, 255, 255, 0.1);
+  width: 100%;
 }
 
 
@@ -402,12 +414,12 @@ nav .nav-links {
   }
 
 
-  .banner .main-photo{
+  .banner .main-photo {
 
     width: 80%;
   }
 
-  .five{  
+  .five {
 
     bottom: 45%;
 
@@ -424,24 +436,44 @@ nav .nav-links {
     font-size: 4.875rem;
   }
 
-  .banner .banner-container .banner-discription{
+  .banner .banner-container .banner-discription {
 
     max-width: 280px;
 
   }
 
-  #club{
+  #club {
 
     display: none;
   }
 
-  .d-btn{
+  .d-btn {
 
     padding: 16px 20px;
 
   }
 
-  
+
+
+
+
+
+  .habits .habit-cards{
+
+    grid-template-columns: 231px;
+  }
+
+  .habits-title{
+
+    font-size: 2rem;
+  }
+
+  .habits-subtitle {
+
+    max-width: 315px;
+  }
+
+
 
 
 }
@@ -451,7 +483,7 @@ nav .nav-links {
 
 
 
-  
+
   header,
   main,
   footer {
@@ -460,7 +492,7 @@ nav .nav-links {
 
   }
 
-  nav .nav-links ul{
+  nav .nav-links ul {
 
     gap: 0px;
 
@@ -470,6 +502,20 @@ nav .nav-links {
 
     flex-direction: column;
     margin-top: 50px;
+  }
+
+
+
+
+
+  .habits .habit-cards{
+
+    grid-template-columns:repeat(2, 231px);
+  }
+
+  .habits-subtitle {
+
+    max-width: 475px;
   }
 
 }
