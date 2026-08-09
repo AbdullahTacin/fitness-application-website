@@ -421,6 +421,96 @@ nav .nav-links {
 
 
 
+/* footer section style */
+
+footer {
+
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.foot-container {
+
+  display: flex;
+  padding-top: 66px;
+}
+
+.foot-container .foot-left {
+
+  width: 50%;
+}
+
+
+.foot-container .foot-left .left-title {
+
+  color: #E6533C;
+  font-weight: 800;
+  font-size: 4.375rem;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.foot-container .foot-left .left-subtitle {
+
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  max-width: 445px;
+}
+
+
+.foot-container .foot-right {
+
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot-container .foot-right .get-started .get-title {
+
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.foot-container .foot-right .get-started .element {
+
+  font-weight: 400;
+  font-size: 1.4375rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 20px;
+}
+
+
+footer .hrz {
+
+  border: none;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  margin-top: 80px;
+}
+
+footer .copy-rights {
+
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -523,17 +613,17 @@ nav .nav-links {
 
 
 
-  .run{
+  .run {
 
     flex-direction: column;
   }
 
-  .run .run-photo{
+  .run .run-photo {
 
     margin-top: 30px;
   }
 
-  .run .run-btn{
+  .run .run-btn {
 
     padding: 16px 108px;
 
@@ -544,11 +634,39 @@ nav .nav-links {
     text-align: center;
   }
 
-  .run .run-title{
+  .run .run-title {
 
     font-size: 2rem;
   }
 
+
+
+
+
+
+
+
+
+
+
+
+
+  .foot-container {
+
+    flex-direction: column;
+  }
+
+  .foot-container .foot-right {
+
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .foot-container .foot-left {
+
+    width: 100%;
+    margin-bottom: 30px;
+  }
 
 }
 
@@ -597,14 +715,14 @@ nav .nav-links {
 
 
 
-  .run .run-title{
+  .run .run-title {
 
     font-size: 2.25rem;
   }
 
   .run .run-photo {
 
-     margin-left: 50px;
+    margin-left: 50px;
   }
 
 
@@ -613,4 +731,34 @@ nav .nav-links {
 
 
 
+
+
+
+
+
+
+
+
+
+
+  .foot-container {
+
+    flex-direction: column;
+  }
+
+   .foot-container .foot-left {
+
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .foot-container .foot-right {
+
+    width: 100%;
+  }
+
+  .foot-container .foot-right .get-started {
+
+    width: 50%;
+  }
 }
