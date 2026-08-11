@@ -412,6 +412,125 @@ nav .nav-links {
 
 
 
+/* team section styles */
+
+.team{
+
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+.team .team-title {
+
+  text-align: center;
+  margin-top: 88px;
+}
+
+.team .team-subtitle {
+
+  text-align: center;
+  max-width: 620px;
+  margin: 0 auto;
+  margin-top: 14px;
+  margin-bottom: 58px;
+}
+
+.team .trainer-container {
+
+  max-width: 1060px;
+  padding: 20px;
+  border-radius: 18px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 88px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+
+}
+
+.team .trainer-container .trainer {
+
+  max-width: 326px;
+  height: 272px;
+  border-radius: 18px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.team .trainer-container .trainer .trainer-name {
+
+  font-weight: 900;
+  font-size: 1.25rem;
+}
+
+
+.team .trainer-container .trainer .post {
+
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+.Jerome-Bell {
+
+  background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url(../images/trainer1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Cameron-Williamson {
+
+  background-image: url(../images/trainer2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: overlay;
+}
+
+.Darrell-Steward {
+
+  background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url(../images/trainer3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Dianne-Russell {
+
+  background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url(../images/trainer4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Cody-Fisher {
+
+  background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url(../images/trainer5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Theresa-Webb {
+
+  background-image: url(../images/trainer6.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: overlay;
+}
+
+
+
+
 
 
 
@@ -643,6 +762,15 @@ footer .copy-rights {
 
 
 
+  .team .trainer-container{
+
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+
+
+
+
 
 
 
@@ -746,7 +874,7 @@ footer .copy-rights {
     flex-direction: column;
   }
 
-   .foot-container .foot-left {
+  .foot-container .foot-left {
 
     width: 100%;
     margin-bottom: 100px;
